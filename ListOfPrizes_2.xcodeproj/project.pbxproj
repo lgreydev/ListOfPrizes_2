@@ -17,7 +17,7 @@
 		5E4054EF267BA90400264DB2 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 5E4054EE267BA90400264DB2 /* .gitignore */; };
 		5E4054F1267BDFE200264DB2 /* PrizeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4054F0267BDFE200264DB2 /* PrizeCell.swift */; };
 		5E4054F3267BE0D200264DB2 /* PrizeTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4054F2267BE0D200264DB2 /* PrizeTableVC.swift */; };
-		5E4054F5267BE32100264DB2 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4054F4267BE32100264DB2 /* Model.swift */; };
+		5E4054F5267BE32100264DB2 /* PrizeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4054F4267BE32100264DB2 /* PrizeModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +33,7 @@
 		5E4054EE267BA90400264DB2 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		5E4054F0267BDFE200264DB2 /* PrizeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrizeCell.swift; sourceTree = "<group>"; };
 		5E4054F2267BE0D200264DB2 /* PrizeTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrizeTableVC.swift; sourceTree = "<group>"; };
-		5E4054F4267BE32100264DB2 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		5E4054F4267BE32100264DB2 /* PrizeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrizeModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +80,9 @@
 			isa = PBXGroup;
 			children = (
 				5E4054DC267BA83D00264DB2 /* PrizeDetail.swift */,
+				5E4054F0267BDFE200264DB2 /* PrizeCell.swift */,
 				5E4054DE267BA83D00264DB2 /* Main.storyboard */,
 				5E4054E3267BA84900264DB2 /* LaunchScreen.storyboard */,
-				5E4054F0267BDFE200264DB2 /* PrizeCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -98,7 +98,7 @@
 		5E4054F8267BE56300264DB2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				5E4054F4267BE32100264DB2 /* Model.swift */,
+				5E4054F4267BE32100264DB2 /* PrizeModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -189,7 +189,7 @@
 				5E4054F3267BE0D200264DB2 /* PrizeTableVC.swift in Sources */,
 				5E4054F1267BDFE200264DB2 /* PrizeCell.swift in Sources */,
 				5E4054DD267BA83D00264DB2 /* PrizeDetail.swift in Sources */,
-				5E4054F5267BE32100264DB2 /* Model.swift in Sources */,
+				5E4054F5267BE32100264DB2 /* PrizeModel.swift in Sources */,
 				5E4054D9267BA83D00264DB2 /* AppDelegate.swift in Sources */,
 				5E4054DB267BA83D00264DB2 /* SceneDelegate.swift in Sources */,
 			);

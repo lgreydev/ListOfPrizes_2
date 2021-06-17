@@ -85,7 +85,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="50" id="laP-Gy-A99" customClass="PrizeCell" customModule="ListOfPrizes_2" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="prizeCellID" rowHeight="50" id="laP-Gy-A99" customClass="PrizeCell" customModule="ListOfPrizes_2" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="24.5" width="414" height="50"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="laP-Gy-A99" id="Stu-05-CPn">
@@ -96,19 +96,19 @@
                                             <rect key="frame" x="20" y="7" width="374" height="36"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9bv-hz-43w">
-                                                    <rect key="frame" x="0.0" y="0.0" width="201.5" height="36"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="206.5" height="36"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wum-L9-S3Q">
-                                                    <rect key="frame" x="201.5" y="0.0" width="125.5" height="36"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wum-L9-S3Q">
+                                                    <rect key="frame" x="206.5" y="0.0" width="119" height="36"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t0t-sb-bBl">
-                                                    <rect key="frame" x="327" y="0.0" width="47" height="36"/>
+                                                    <rect key="frame" x="325.5" y="0.0" width="48.5" height="36"/>
                                                     <state key="normal" image="plus" catalog="system"/>
                                                 </button>
                                             </subviews>
@@ -121,6 +121,10 @@
                                         <constraint firstItem="bpr-YX-8Le" firstAttribute="centerX" secondItem="Stu-05-CPn" secondAttribute="centerX" id="ncp-4V-ZID"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="priceLabel" destination="Wum-L9-S3Q" id="ZP0-cj-NTv"/>
+                                    <outlet property="titleLabel" destination="9bv-hz-43w" id="8Xo-EN-pTV"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
