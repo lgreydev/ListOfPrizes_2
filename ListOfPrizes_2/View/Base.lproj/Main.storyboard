@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Prize DetailVC-->
+        <!--Prize Detail-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="PrizeDetailVC" customModule="ListOfPrizes_2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="PrizeDetail" customModule="ListOfPrizes_2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -79,7 +79,7 @@
         <!--List of Prizes-->
         <scene sceneID="aIe-cC-Pbw">
             <objects>
-                <tableViewController id="XOT-77-gWX" customClass="PrizeTableView" customModule="ListOfPrizes_2" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="XOT-77-gWX" customClass="PrizeTableVC" customModule="ListOfPrizes_2" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="D9r-kA-zkF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -131,7 +131,7 @@
                     <navigationItem key="navigationItem" title="List of Prizes" id="VU7-zG-oXi">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="IWo-6A-J6c">
                             <connections>
-                                <segue destination="BYZ-38-t0r" kind="show" id="rCg-yY-SWR"/>
+                                <segue destination="BYZ-38-t0r" kind="show" id="IiY-va-GlI"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
